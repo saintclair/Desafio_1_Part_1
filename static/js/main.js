@@ -7,7 +7,7 @@ function validaForm(){
 	}
 	return true;
 }
-var csrftoken = {{ csrf_token() }}
+var csrftoken = $('input[name="_csrf_token"]').val();
 
 $.ajaxSetup({
     beforeSend: function(xhr, settings) {
@@ -15,5 +15,5 @@ $.ajaxSetup({
             xhr.setRequestHeader("X-CSRFToken", csrftoken)
         }
     }
-})
+});
 
