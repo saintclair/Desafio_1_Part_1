@@ -1,0 +1,103 @@
+/* CSS reset */
+* {
+	margin:0;
+	padding:0;
+	list-style:none;
+	vertical-align:baseline;
+
+}
+fieldset{
+	border:none;
+}
+
+#main h1{
+	font-size:1.8em;
+	color:#666;
+	font-weight:normal;
+	font-family:Arial;
+	text-align:center;
+	margin:10px;
+}
+#main{
+	width:980px;
+	margin:0 auto;
+	background:#f6f6f6;
+	padding:3px;
+	margin-top:50px;
+}
+.middle{
+	position:relative;
+}
+#frmVotacao{
+
+}
+#frmVotacao ul, .middle ul{
+	width:99%;
+	display:table;
+	/*border:1px red solid;*/
+}
+#frmVotacao ul li, .middle ul li{
+	display:inline;
+	float:left;
+	/*border:1px red solid;*/
+	/*font-weight:bold;*/
+	font-family:Arial;
+	text-align:center;
+	width:45%;
+	background:#FFFFFF;
+	margin:0 0 0 1%;
+	padding:2%;
+}
+
+#frmVotacao ul li img, .middle ul li img{
+	display:block;
+	/*border:1px blue solid;*/
+	margin:0 auto;
+}
+#frmVotacao ul li label, .middle ul li label{
+	color:#FF6600;
+	font-size:1.3em;
+}
+.x_brother{
+	position:absolute;
+	top:80px;
+	left:422px;
+	display:block;
+}
+/**/
+.percentual{
+	background:#e6e6e6;
+	width:100px;
+	height:30px;
+	margin:0 auto;
+}
+.percentual .votos{
+	background:blue;
+	height:100%;	
+}
+.total{
+	float:right;
+	font-family:Arial;
+	text-align:right;
+}
+.total span{
+	display:block;
+	margin:0 0 10px 0;
+}
+.total strong{
+	font-size:1.3em;
+	color:#FF6600;
+}
+
+#btn-votar{
+	background:#FF6600;
+	text-decoration:none;
+	font-size:1.8em;
+	padding:5px;
+	color:#FFF;
+	margin:20px;
+	border:none;
+	cursor:pointer;
+}
+
+/**/
